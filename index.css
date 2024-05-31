@@ -123,13 +123,14 @@
 
 .intro-image{
     width: 270px;
-    margin-left: 300px;
-    margin-top: -200px;
+    margin-left: 700px;
+    margin-top: -280px;
 }
 
 .social-icons{
     margin-left: 100px;
     font-size: 30px;
+    margin-top: -60px;
 }
 
 .social-icons a{
@@ -290,7 +291,7 @@
 }
 
 .case .card{
-    margin-left: 100px;
+    margin-left: 140px;
 }
 
 .case .row{
