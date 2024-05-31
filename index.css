@@ -1,0 +1,544 @@
+*{
+    background-color:  #1E1E1E;
+}
+
+
+/* nav */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 90px;
+}
+
+.nav a{
+    color: #f0f0f0;
+    font-size: 20px;
+}
+
+.nav-image img{
+    width: 120px;
+    margin-top: 20px;
+}
+
+.nav-items .btn{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FD6F00;
+    margin-top: -20px;
+}
+
+.nav-items ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+}
+
+.nav-link:hover{
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* introduction */
+
+.introduction{
+    margin-top: 70px;
+}
+
+.intro-desc{
+    margin-left: 50px;
+    color: #f0f0f0;
+}
+
+.intro-desc h1{
+    text-transform: uppercase;
+}
+
+.intro-desc p{
+    font-size: 15px;
+}
+
+.intro-button{
+    display: flex;
+    width: 280px;
+    height: 50px;
+    gap: 60px;
+    background-color: #434242;
+    border-radius: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+
+
+.intro .btn{
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+    justify-content: center;
+    margin-top: 4px;
+    display: flex;
+    padding-top: 10px;
+    border-radius: 40px;
+    color: #f0f0f0;
+    background-color: #FD6F00;
+    border: none;
+}
+
+.intro .btn svg{
+    margin-top: -5px;
+    width: 25px;
+    background-color: #FD6F00;
+}
+
+.hire{
+    white-space: nowrap;
+    color: white;
+    background-color: #434242; 
+}
+
+.intro-image{
+    width: 270px;
+    margin-left: 350px;
+    margin-top: -180px;
+}
+
+.social-icons{
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.social-icons a{
+    color: #434242;
+}
+
+.prime{
+    background-color: #434242 ;
+    border-radius: 50px;
+}
+
+/* about me */
+
+.middle{
+    margin-top: 160px;
+}
+
+.about{
+    display: flex;
+    gap: 440px;
+}
+
+.myself{
+    margin-left: 90px;
+}
+
+.myself h1{
+   font-size: 30px;
+   color: #f0f0f0;
+}
+
+.myself p{
+    font-size: 15px;
+    color: #C9C9C9;
+    margin-top: -16px;
+}
+
+.about .container .year{
+   margin-left: 100px;
+}
+
+
+.fa-star{
+    font-size: 18px;
+    color: #FD853A;
+}
+
+.container p{
+    color: #f0f0f0;
+}
+
+/* experience */
+.career{
+    display: flex;
+    gap: 470px;
+}
+.expo{
+    margin-top: 90px;
+    color: #f0f0f0;
+    background-color: (#FFB147
+    10%,
+    #FF6C63
+    10%,
+    #B86ADF
+    10%);
+}
+.experience{
+    margin-left: 90px;
+}
+
+.date span{
+    padding-left: 50px;
+}
+
+/* award */
+.award{
+    margin-top: 90px;
+}
+
+.award-desc{
+    text-align: center;
+    color: #f0f0f0;
+    padding: 20px;
+}
+
+.award .app{
+    margin-top: 60px;
+    background-color: #000;
+    padding: 20px; 
+    width: 1030px;
+    margin-left: 100px;
+}
+
+.award-desc p{
+    color: #C9C9C9;
+}
+
+.award .app h2,
+.award .app p, span{
+    background-color: #000; 
+    color: #fff; 
+    padding: 10px;
+}
+
+.award .app span{
+    margin-left: 600px;
+    font-size: 20px;
+}
+
+.award .app p{
+    margin-top: -20px;
+    color: #C9C9C9;
+}
+
+/* portfolio */
+.portfolio{
+    margin-top: 60px;
+}
+
+.portfolio-desc{
+    text-align: center;
+    color: #f0f0f0;
+    padding: 20px;
+}
+
+.portfolio-desc p{
+    color: #C9C9C9;
+}
+
+.portfolio-btn .btn{
+    display: inline-block;
+    padding: 14px 34px;
+    color: #f0f0f0;
+    margin-left: 130px;
+    margin-top: 40px;
+    background-color: #000;
+    text-decoration: none;
+    border: 2px solid #a5a3a3;
+}
+
+.portfolio-btn .btn:hover{
+    background-color: transparent;
+    transform: translateY(-5px);
+    border-radius: 5px;
+}
+
+.portfolio-btn .two{
+    background-color: #FD6F00;
+}
+
+/* case study */
+
+.case{
+    margin-top: 80px;
+}
+
+.case .card{
+    margin-left: 100px;
+}
+
+.case .row{
+    display: flex;
+    gap: 150px;
+    color: #f0f0f0;
+}
+
+.card-body .ux{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.card-text{
+    color: #C9C9C9;
+    font-size: 15px;
+}
+
+.second{
+    margin-top: 120px;
+}
+
+/* contact */
+
+.contact{
+    margin-top: 90px;
+}
+.contact .reach{
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.contact .reach p{
+    font-style: italic;
+}
+
+
+.contact .container{
+    color: #f0f0f0;
+    margin-left: 200px;
+
+}
+
+.contact .container form{
+    margin-left: 90px;
+    margin-top: 60px;
+    background-color: #261101;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+.contact .container form {
+    width: 700px;
+    height: 400px;
+   
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact .container form h1 {
+    text-align: center;
+    background-color: #261101;
+    width: 500px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.contact .container form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    background: none;
+    border-bottom: 2px solid #f0f0f0;
+}
+.contact .container form #message{
+    width: 620px;
+}
+
+.contact .container form input::placeholder{
+    color: #f0f0f0;
+}
+
+.contact .container form #email{
+    margin-left: 20px;
+}
+.upload {
+    display: flex;
+    align-items: center;
+    background-color: #261101;
+}
+
+.upload input[type="file"] {
+    display: none;
+}
+.upload i {
+    margin-right: 10px;
+    background-color: #261101;
+}
+.upload label {
+    cursor: pointer;
+    background-color: #261101;
+    margin-left: 20px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.contact .container form .btn{
+    background-color: #FD6F00;
+    margin-top: 20px;
+    border: none;
+    color: #f0f0f0;
+    font-size: 15px;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+
+.contact .container form .full-width {
+    width: calc(100% - 10px);
+}
+
+/* footer */
+
+.end{
+    margin-top: 90px;
+}
+
+.footer{
+    margin-top: 30px;
+    color: #f0f0f0;
+    background-color: #000;
+    width: 100%;
+}
+
+.footer img{
+    width: 7%;
+    background-color: #000;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.footerNav ul, .footerNav li{
+    background-color: #000;
+    list-style-type: none;
+}
+
+.social{
+     display: flex;
+     justify-content: center;
+     background-color: #000;
+     gap: 40px;
+     margin-top: 70px;
+}
+
+.social a{
+    text-decoration: none;
+    background-color: #000;
+    color: #f0f0f0;
+    font-size: 30px;
+}
+
+.social i{
+    background-color: #000;
+    margin-bottom: 30px;
+}
+
+.bottom{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* media query */
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .nav-image img {
+        margin: 20px 0;
+    }
+
+    .nav-items ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .intro-button {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .intro .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro-image img {
+        margin-top: 20px;
+        width: 100%;
+        max-width: 270px;
+    }
+
+    .middle,
+    .about,
+    .career,
+    .award,
+    .portfolio,
+    .contact,
+    .footerNav ul {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .about {
+        gap: 20px;
+    }
+
+    .about .container {
+        gap: 10px;
+    }
+
+    .container .year {
+        font-size: 1.5rem;
+    }
+
+    .footer img {
+        margin-left: 0;
+    }
+
+    .footerNav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social {
+        gap: 10px;
+    }
+}
