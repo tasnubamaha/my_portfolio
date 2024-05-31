@@ -16,9 +16,12 @@
     font-size: 20px;
 }
 
+.nav-image{
+    margin-left: 60px;
+}
 .nav-image img{
     width: 120px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .nav-items .btn{
@@ -65,15 +68,19 @@
 
 .intro-desc{
     margin-left: 50px;
+    line-height: 50px;
     color: #f0f0f0;
 }
 
 .intro-desc h1{
     text-transform: uppercase;
+    margin-left: 50px;
 }
 
 .intro-desc p{
     font-size: 15px;
+    margin-left: 50px;
+    margin-top: -30px;
 }
 
 .intro-button{
@@ -83,10 +90,9 @@
     gap: 60px;
     background-color: #434242;
     border-radius: 40px;
-    margin-left: 40px;
+    margin-left: 90px;
     margin-bottom: 30px;
 }
-
 
 
 .intro .btn{
@@ -117,12 +123,12 @@
 
 .intro-image{
     width: 270px;
-    margin-left: 350px;
-    margin-top: -180px;
+    margin-left: 300px;
+    margin-top: -200px;
 }
 
 .social-icons{
-    margin-left: 50px;
+    margin-left: 100px;
     font-size: 30px;
 }
 
@@ -162,9 +168,12 @@
 }
 
 .about .container .year{
-   margin-left: 100px;
+   margin-left: 90px;
 }
 
+.container{
+   margin-left: 90px;
+}
 
 .fa-star{
     font-size: 18px;
@@ -200,7 +209,7 @@
 
 /* award */
 .award{
-    margin-top: 90px;
+    margin-top: 30px;
 }
 
 .award-desc{
